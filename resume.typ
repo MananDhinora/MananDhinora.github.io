@@ -5,7 +5,7 @@
 #let location = "Ahmedabad, Gujarat, IN"
 #let email = "dhinoramanan@gmail.com"
 #let github = "github.com/MananDhinora"
-#let linkedin = "linkedin.com/in/manandhinora"
+#let linkedin = "linkedin.com/in/MananDhinora"
 #let phone = "+91 7229094249"
 
 #show: resume.with(
@@ -24,7 +24,7 @@
 
 == Summary
 
-Full-Stack Developer with 1.5 years of experience building high-impact, scalable systems using Python, Next.js, Spring Boot, and AI integration.
+Full-Stack Developer with 1+ year experience building high-impact, scalable systems using Python, Next.js, Spring Boot, and AI integration.
 
 == Education
 
@@ -34,7 +34,7 @@ Full-Stack Developer with 1.5 years of experience building high-impact, scalable
   dates: dates-helper(start-date: "Aug 2021", end-date: "May 2025"),
   degree: "Bachelor of Technology in Computer Engineering",
 )
-- Cumulative CGPA: 9.01
+- CGPA: 9.01
 
 == Work Experience
 
@@ -45,45 +45,85 @@ Full-Stack Developer with 1.5 years of experience building high-impact, scalable
   dates: dates-helper(start-date: "May 2025", end-date: "Present"),
 )
 - Developed full-stack applications by leveraging Agentic AI
-- Worked on an Insurance marketplace application that uses the reverse auctioning concept to fetch the candidates the best insurance premium-to-coverage from various agents, with Stripe, Twilio, Google Maps API, and OpenAI API integrations
-- Worked on a stress management system developed in NextJS and deployed on an AWS stack with a native Android and iOS app developed via Capacitor with functional in-app purchases using RevenueCat
+- Built Insurance marketplace with reverse auctioning using Stripe, Twilio, Google Maps API, and OpenAI API
+- Developed stress management system in NextJS on AWS with native Android/iOS apps via Capacitor and RevenueCat
 
 #work(
   title: "Software Developer Intern",
-  location: "Ahmedabad, Gujarat, India (Hybrid)",
+  location: "Ahmedabad, Gujarat, IN",
   company: "Hair Drama Company",
-  dates: dates-helper(start-date: "April 2025", end-date: "August 2025"),
+  dates: dates-helper(start-date: "Apr 2025", end-date: "Aug 2025"),
 )
-- Developed Internal tooling and various automations for the operations and warehouse teams by leveraging AI for quick MVPs and then conventional coding for well-architected and long-term solutions for the same
-- Saved \$600+ in costs per month by developing a tightly integrated label printer with the cataloguing webapp, which saved the warehouse team 30+ hrs of labour every week
-- Also developed a procurement solution from scratch to meet the unique requirements of the team with integration to the cataloguing webapp while maintaining a stable architecture that tracked over \$30,000 worth of purchases per month
+- Developed internal tooling and automations for operations and warehouse teams leveraging AI for rapid MVPs
+- Saved \₹30,000 monthly by developing integrated label printer webapp, reducing warehouse labor by 30+ hrs/week
+// - Developed procurement solution tracking over 2000 products and inventory monthly
 
 #work(
   title: "Python Intern",
   location: "Ahmedabad, Gujarat, IN",
   company: "BizzAppDev Systems Pvt. Ltd.",
-  dates: dates-helper(start-date: "July 2023", end-date: "January 2024"),
+  dates: dates-helper(start-date: "Jul 2023", end-date: "Jan 2024"),
 )
-- Maintained ERP applications by developing business logic in Python and maintaining the existing codebase by updating the documentation
-- Also, created unit tests for legacy modules
+- Maintained ERP applications by developing business logic in Python and updating documentation
+// - Created unit tests for legacy modules
 
 == Projects
 
 #project(
+  name: "Market Research & Product Strategy Agent",
+  role: "",
+  dates: dates-helper(start-date: "Nov 2025", end-date: "Nov 2025"),
+  
+)
+- Designed LangGraph-based multi-agent workflow for competitive analysis, SWOT, and user flow mapping
+- Implemented parallel web scraping using Python's multiprocessing.Pool and BeautifulSoup
+
+// #project(
+//   name: "Requirement Wizard",
+//   role: "",
+//   dates: dates-helper(start-date: "May 2025", end-date: "May 2025"),
+//   url: "github.com/MananDhinora/RequirementWizard",
+// )
+// - Creates Product Requirement Documents (PRDs) from raw requirements using AI
+// - Built with Express.js backend and React.js frontend with shadcn/ui component library
+// - Integrated OpenAI API for intelligent requirement analysis and PRD generation
+// - Implemented Zustand for efficient state management across the application
+
+#project(
   name: "Transformer Designer",
   role: "",
-  dates: dates-helper(start-date: "July 2024", end-date: "Present"),
+  dates: dates-helper(start-date: "Jul 2024", end-date: "Present"),
 )
-- A work-in-progress full-stack app with Java Spring Boot, React.js, and JWT authentication
-- Visualised the Transformer CAD designs using OpenCascade.js and Three.js
+- Full-stack app with Java Spring Boot, React.js, and JWT authentication
+- Visualized Transformer CAD designs using opencascade.js and Three.js
+
+// #project(
+//   name: "Food Court",
+//   role: "",
+//   dates: dates-helper(start-date: "March 2024", end-date: "Apr 2024"),
+//   url: "github.com/MananDhinora/food-court",
+// )
+// - Full-stack food ordering application with React and Vite for the frontend
+// - Built RESTful API backend using Flask and Python
+// - Implemented CORS for secure cross-origin resource sharing
+
+// #project(
+//   name: "Conway's Game of Life",
+//   role: "",
+//   dates: dates-helper(start-date: "October 2024", end-date: "October 2024"),
+//   url: "github.com/MananDhinora/ConwaysGameofLife",
+// )
+// - Interactive simulation of Conway's Game of Life cellular automaton
+// - Developed using Python with Tkinter for real-time visualization
+// - Implemented efficient algorithms for pattern generation and evolution
 
 #project(
   name: "Pirate Companion",
   role: "",
-  dates: dates-helper(start-date: "July 2024", end-date: "July 2024"),
+  dates: dates-helper(start-date: "Jul 2024", end-date: "Jul 2024"),
 )
-- A Discord Bot for users' assistance to travel the high seas of the interwebs with minimal risk
-- Built a scalable web scraper with Python and BeautifulSoup, optimised for minimal-token responses
+- Discord Bot for web navigation assistance with minimal risk
+- Built scalable web scraper with Python and BeautifulSoup, optimized for minimal-token responses
 
 // #project(
 //   name: "To-Do",
@@ -96,10 +136,14 @@ Full-Stack Developer with 1.5 years of experience building high-impact, scalable
 
 == Skills
 
-*Languages:* TypeScript, JavaScript, Python, PostgreSQL, MongoDB, Bash, Java, SQL, HTML/CSS
+*Languages:* Python, JavaScript, TypeScript, Java, SQL, Bash, HTML/CSS
 
-*Frameworks:* SpringBoot, Django, Flask, FastAPI, BeautifulSoup, requests, Odoo, SQLAlchemy, Pandas, Express.js, Next.js, React
+*Frameworks & Libraries:* Next.js, React, Express.js, Flask, FastAPI, Django, Spring Boot, LangGraph, BeautifulSoup, Zustand, shadcn/ui, Pandas
 
-*Tools:* Intellij, Vim, Linux, VSCode, Git, Github, Postman, Docker, Replit
+*Databases:* PostgreSQL, MongoDB, Supabase, NeonDB
 
-*Other Skills:* OOPS, HTTP, Scrum, SDLC, GCP, generative AI and LLM integration, English proficiency, Strong problem-solving skills, immaculate work ethic
+*Tools & Platforms:* AWS, Docker, Git, GitHub, Stripe, Twilio, Google Maps API, RevenueCat, Capacitor, VSCode, Postman, Linux, Vim, Tmux, SSH
+
+// *AI/ML:* OpenAI API, LLM Integration, Agentic AI, Multi-agent Systems, Generative AI
+
+*Other:* RESTful APIs, JWT Authentication, Web Scraping, Multiprocessing, SDLC, Agile/Scrum, OOP
