@@ -37,7 +37,7 @@ Full-Stack Developer with 1+ year experience building high-impact, scalable syst
 )
 - Developing Scaleable APIs for a service management platform
 - Using system design to design backend architecture in FastAPI, PostgreSQL, Redis, Celery
-- Maintaining CI/CD pipelines and architecting database relations and tables along with triggers for data integrety and scaleablity
+- Maintaining CI/CD pipelines and architecting database relations and tables along with triggers
 
 #work(
   title: "Software Engineer",
@@ -57,7 +57,7 @@ Full-Stack Developer with 1+ year experience building high-impact, scalable syst
 )
 - Developed internal tooling and automations for operations and warehouse teams leveraging AI for rapid MVPs
 - Saved \₹30,000 monthly by developing integrated label printer webapp, reducing warehouse labor by 30+ hrs/week
-// - Developed procurement solution tracking over 2000 products and inventory monthly
+- Developed procurement solution tracking over 2000 products and inventory monthly
 
 #work(
   title: "Python Intern",
@@ -69,16 +69,16 @@ Full-Stack Developer with 1+ year experience building high-impact, scalable syst
 // - Created unit tests for legacy modules
 
 == Projects
-
+//
 #project(
   name: "Market Research & Product Strategy Agent",
   role: "",
   dates: dates-helper(start-date: "Nov 2025", end-date: "Nov 2025"),
-  
+
 )
 - Designed LangGraph-based multi-agent workflow for competitive analysis, SWOT, and user flow mapping
-- Implemented parallel web scraping using Python's multiprocessing.Pool and BeautifulSoup
-
+// - Implemented parallel web scraping using Python's multiprocessing.Pool and BeautifulSoup
+//
 // #project(
 //   name: "Requirement Wizard",
 //   role: "",
@@ -89,7 +89,7 @@ Full-Stack Developer with 1+ year experience building high-impact, scalable syst
 // - Built with Express.js backend and React.js frontend with shadcn/ui component library
 // - Integrated OpenAI API for intelligent requirement analysis and PRD generation
 // - Implemented Zustand for efficient state management across the application
-
+//
 #project(
   name: "Transformer Designer",
   role: "",
@@ -97,7 +97,7 @@ Full-Stack Developer with 1+ year experience building high-impact, scalable syst
 )
 - Full-stack app with Java Spring Boot, React.js, and JWT authentication
 - Visualized Transformer CAD designs using opencascade.js and Three.js
-
+//
 // #project(
 //   name: "Food Court",
 //   role: "",
@@ -107,7 +107,7 @@ Full-Stack Developer with 1+ year experience building high-impact, scalable syst
 // - Full-stack food ordering application with React and Vite for the frontend
 // - Built RESTful API backend using Flask and Python
 // - Implemented CORS for secure cross-origin resource sharing
-
+//
 // #project(
 //   name: "Conway's Game of Life",
 //   role: "",
@@ -117,15 +117,15 @@ Full-Stack Developer with 1+ year experience building high-impact, scalable syst
 // - Interactive simulation of Conway's Game of Life cellular automaton
 // - Developed using Python with Tkinter for real-time visualization
 // - Implemented efficient algorithms for pattern generation and evolution
-
-#project(
-  name: "Pirate Companion",
-  role: "",
-  dates: dates-helper(start-date: "Jul 2024", end-date: "Jul 2024"),
-)
-- Discord Bot for web navigation assistance with minimal risk
-- Built scalable web scraper with Python and BeautifulSoup, optimized for minimal-token responses
-
+//
+// #project(
+//   name: "Pirate Companion",
+//   role: "",
+//   dates: dates-helper(start-date: "Jul 2024", end-date: "Jul 2024"),
+// )
+// - Discord Bot for web navigation assistance with minimal risk
+// - Built scalable web scraper with Python and BeautifulSoup, optimized for minimal-token responses
+//
 // #project(
 //   name: "To-Do",
 //   role: "",
