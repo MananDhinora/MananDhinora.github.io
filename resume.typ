@@ -24,25 +24,26 @@
 
 == Summary
 
-Full-Stack Developer with 1+ year experience building high-impact, scalable systems using Python, Next.js, Spring Boot, and AI integration.
+Full-Stack Developer with 1+ year experience building high-impact, scalable systems using FastAPI, Flask, Next.js, Spring Boot, and AI integration.
 
-== Education
-
-#edu(
-  institution: "Silver Oak University",
-  location: "Ahmedabad, Gujarat",
-  dates: dates-helper(start-date: "Aug 2021", end-date: "May 2025"),
-  degree: "Bachelor of Technology in Computer Engineering",
-)
-- CGPA: 9.01
 
 == Work Experience
+
+#work(
+  title: "Backend Developer",
+  location: "Remote",
+  company: "Code Samdevx Pvt. Ltd.",
+  dates: dates-helper(start-date: "Dec 2025", end-date: "Present"),
+)
+- Developing Scaleable APIs for a service management platform
+- Using system design to design backend architecture in FastAPI, PostgreSQL, Redis, Celery
+- Maintaining CI/CD pipelines and architecting database relations and tables along with triggers for data integrety and scaleablity
 
 #work(
   title: "Software Engineer",
   location: "Remote",
   company: "AGILf(x)",
-  dates: dates-helper(start-date: "May 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "May 2025", end-date: "Nov 2025"),
 )
 - Developed full-stack applications by leveraging Agentic AI
 - Built Insurance marketplace with reverse auctioning using Stripe, Twilio, Google Maps API, and OpenAI API
@@ -134,6 +135,15 @@ Full-Stack Developer with 1+ year experience building high-impact, scalable syst
 // - Supports CRUD operations with the Backend in Django and Supabase database
 // - Briefly deployed on Vercel
 
+== Education
+
+#edu(
+  institution: "Silver Oak University",
+  location: "Ahmedabad, Gujarat",
+  dates: dates-helper(start-date: "Aug 2021", end-date: "May 2025"),
+  degree: "Bachelor of Technology in Computer Engineering",
+)
+- CGPA: 9.01
 == Skills
 
 *Languages:* Python, JavaScript, TypeScript, Java, SQL, Bash, HTML/CSS
